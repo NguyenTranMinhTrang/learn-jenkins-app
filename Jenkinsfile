@@ -14,6 +14,7 @@ pipeline {
                     ls -la
                     node --version
                     yarn --version
+                    yarn install
                     yarn run build
                     ls -la
                 '''
